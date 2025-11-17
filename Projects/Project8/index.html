@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Image Map</title>
+	<style>
+		@font-face{
+			font-family:'DreamingPrincess';
+			src: url('fonts/DreamingPrincess.eot');
+			src: local('DreamingPrincess'), url('fonts/DreamingPrincess.ttf') format('truetype') ;
+		}
+		.map{
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+			border: 6px inset #2d5a27;
+			width: 700px;
+			height: 700px;
+			padding: 5px;
+		}
+		h1{
+			text-align: center;
+			font-family: DreamingPrincess;
+			color: #333333;
+			font-size: 60px;
+			width: 850px;;
+			height: 50px;
+			background-color: #e0f0f0;
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			margin: auto;
+			border: 5px solid #4b8e8d;
+		}
+		body{
+			background-color: #F4F9F9;
+		}
+		hr{
+			color: #FFFFFF;
+			background-color: #4b8e8d;
+			height 2px;
+		}
+	</style>
+</head>
+
+<body>
+<h1>Backyard Birds</h1>
+	<hr>
+	<div class="map">
+		<img src ="images/mymap.jpg" alt="Image Map" width="700" height="700" usemap="#mapMap" id="map"/>
+        <map name="mapMap">
+          <area shape="poly" coords="113,319,70,166,308,93,354,247" href="aboutus.html" alt="About Us Link">
+          <area shape="poly" coords="371,221,448,97,643,216,566,341,463,279" href="tributes.html" alt="Tributes Link">
+          <area shape="poly" coords="266,463,221,438,225,295,271,279,456,282,502,309,500,449,429,464" href="Home.html" alt="Home Link">
+          <area shape="poly" coords="82,531,152,409,342,516,274,634" href="favorites.html" alt="Favorites Link">
+          <area shape="poly" coords="424,641,388,468,431,468,502,453,593,432,623,598" href="survey.html" alt="Surveys Link">
+        </map>
+</div>
+
+</body>
+</html>

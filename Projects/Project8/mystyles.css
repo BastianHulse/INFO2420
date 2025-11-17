@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:'DreamingPrincess';
+	src: url('fonts/DreamingPrincess.eot');
+	src: local('DreamingPrincess'), url('fonts/DreamingPrincess.ttf') format('truetype') ;
+}
+@font-face{
+	font-family:'FromCartoonBlocks'; 
+	src: url('fonts/From_Cartoon_Blocks.eot'); 
+	src: local('FromCartoonBlocks'), url('fonts/FromCartoonBlocks.ttf') format('truetype') ;
+}
+@font-face{
+	font-family:'AnselmoRutgerDemoRegular';
+	src: url('fonts/AnselmoRutgerDemoRegular.eot'); 
+	src: local('AnselmoRutgerDemoRegular'), url('fonts/AnselmoRutgerDemoRegular.ttf') format('truetype') ;
+}
+@font-face{
+	font-family:'aescrawl';
+	src: url('fonts/aescrawl.eot'); 
+	src: local('aescrawl'), url('fonts/aescrawl.ttf') format('truetype') ;
+}
+
+body{
+	background-color: #F4F9F9;
+	font-family: DreamingPrincess, Helvetica, sans-serif;
+	color: #333333;
+}
+
+header{
+	width: 890px;
+	height: 150px;
+	background-color: rgba(45,90,39,.15);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	border: 5px solid #4b8e8d;
+}
+
+section{
+	width: 900px;
+	background-image: url('images/2colbackAlt.jpg');
+	background-repeat: repeat-y;
+	overflow: hidden;
+	margin: auto;
+	
+}
+
+nav{
+	float: left;
+	width: 250px;
+	text-align: center;
+}
+
+article{
+	float: left;
+	width: 650px;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	width: 890px;
+	height: 80px;
+	background-color: rgba(45,90,39,.15);
+	margin: auto;
+	border: 5px solid #4b8e8d;
+}
+
+.logoleft{
+	float: left;
+	padding-top: 0px;
+	padding-left: 15px;
+}
+
+nav a{
+	display: block;
+	border: 6px inset #2d5a27;
+	width: 145px;
+	background-color: #d8eceb;
+	line-height: 1.25;
+	font-weight: bold;
+	font-size: 30px;
+	color: #333333;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: aescrawl;
+	margin: auto;
+	margin-top: 10px;
+}
+
+nav a:hover {
+	color: #4b8e8d;
+	background-color: #d8eceb;
+	border: 6px outset #2d5a27;
+}
+
+h1{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 50px;
+	-webkit-text-stroke: 1px #333333;
+	font-family: DreamingPrincess;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+	#thumbs, #image {
+		width: 600px;
+		text-align: center;
+		margin: 0 auto 0 auto;
+		color: #000;
+		
+	}
+
+	#thumbs {
+		margin-top: 10px;
+	}
+
+			
+	#thumbs img {
+		border: dashed #2D5A27;
+		margin: 5px;
+		box-shadow: 0 0 0 2px #4b8e8d;
+	}
+
+	#image{
+		margin-bottom: 20px;
+		
+	}
+
+	.instructions{
+		font-style:italic;
+	}
+.contact{
+	font-weight: bold;
+	font-size: 20px;
+}
+.auto-style1{
+	float: left;
+	height: 150px;
+	border: dashed #2D5A27;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	box-shadow: 0 0 0 2px #4b8e8d;
+}
+
+.caption{
+	font-size: 27px;
+}
+
+h2{
+	color: #FFFFFF;
+	background-color: #4b8e8d;
+	margin-right: 20px;
+	font-family: FromCartoonBlocks;
+	font-size: 35px;
+	margin-top: 0em;
+}
+
+h3{color: #333333;}
+
+hr.ucas{
+	border-style: solid;
+	border-color: #333333;
+	border-width: 1px;
+}
+
+p{
+	color: #333333;
+	margin-right: 30px;
+	font-size: 20px;
+}
+.quote{
+	color: #333333;
+	margin-right: 25px;
+	font-family: aescrawl;
+	font-size: 17px;
+}
+
+
+
+#header{
+  background-color: rgba(45,90,39,.15);
+  margin-top: 0;
+  padding: 2em 0em 0em 0em;
+  text-align: center;
+}
+
+body.ucas{
+	font-family: DreamingPrincess, Helvetica, sans-serif;
+	color: #333333;
+	font-size: 24px;
+	background-color: #F4F9F9;
+}
+
+h1.ucas{color: #1A3C8E;
+	font-family:FromCartoonBlocks;
+	font-size: 48px;}
+
+h2.ucas{color: #3E8e41;
+	font-family:FromCartoonBlocks;
+	font-size: 32px;}
+
+h3{color: #B86B00;
+	font-family:FromCartoonBlocks;
+	font-size: 20px;}
+
+hr{
+	height: 4px;
+	background-color: #CCCCCC;
+	border: none;
+	margin-right: 20px;
+}
+
+.imageleft{
+	float: left;
+	border: 8px double;
+	border-color: #2D5A27;
+	background-color: #F4F9F9;
+	border-radius: 10px;
+	margin-right: 20px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.imageright{
+	float: right;
+	border: 8px double;
+	border-color: #2D5A27;
+	background-color: #F4F9F9;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 30px;
+	margin-bottom: 25px;
+}
+.link{
+	color: #008C9E;
+	font-size: 24px;
+}
+a:hover{
+	color: #E07B39;
+}
+
+
+table, th, td{
+	width: 100%;
+	margin-bottom: 15px;
+	border-collapse: separate;
+	border: 5px solid #B0BEC5;
+	padding: 5px;
+	border-radius: 10px;
+	border-spacing: 5px;
+}
+th{
+	background-color: #4B8E8D;
+	color: #FFFFFF;
+	padding: 10px;
+	text-align: center;
+	font-family: aescrawl;
+	font-size: 30px;
+}
+td{
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #B0BEC5;
+	color: #37474F;
+	font-size: 24px;
+	font-family: DreamingPrincess;
+}
+tr:nth-child(odd){
+	background-color: #FFFFFF;
+}
+tr:nth-child(even){
+	background-color: #E0F2F1;
+}
+tr:hover{
+	background-color: #C8E6C9;
+}
+caption{
+	color: #2D5A27;
+	background-color: #E0F2F1;
+	font-family: FromCartoonBlocks;
+	font-size: 40px;
+	padding: 10px;
+	border: 5px solid #B0BEC5;
+	border-radius: 8px;
+	font-weight: bold;
+}
+table{	background-color: #f7fefe; margin-right: 30px; margin-left: 10px; width: calc(100% - 40px);}
+.BirdSpecies{width: 70%;}
+.Month{width: 15%;}
+.Year{width: 15%;}
+ul{
+	text-align: left;
+	font-size: 20px;
+}
